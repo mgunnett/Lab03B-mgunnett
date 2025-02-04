@@ -3,6 +3,7 @@ package lab3_PartB_InputMsgDlg;
 import java.awt.EventQueue;
 
 import javax.swing.JFrame;
+import javax.swing.JOptionPane;
 
 /*
  * Demonstration of Swing's JOptionPane's showInputDIalog method
@@ -36,6 +37,9 @@ public class InputDialog {
 	 */
 	public InputDialog() {
 		initialize();
+		String prompt = "Enter your name.";
+		String name = JOptionPane.showInputDialog(null, prompt);
+		JOptionPane.showMessageDialog(null,  "Hi, " + name + "!");
 	}
 
 	/**
