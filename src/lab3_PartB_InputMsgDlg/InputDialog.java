@@ -37,9 +37,15 @@ public class InputDialog {
 	 */
 	public InputDialog() {
 		initialize();
-		String prompt = "Enter your name.";
-		String name = JOptionPane.showInputDialog(null, prompt);
-		JOptionPane.showMessageDialog(null,  "Hi, " + name + "!");
+		String prompt1 = "Enter an integer.";
+		String prompt2 = "Enter a floating-point value.";
+		String intValue = JOptionPane.showInputDialog(null, prompt1);
+		String numValue = JOptionPane.showInputDialog(null, prompt2);
+		int addend =Integer.parseInt(intValue);
+		double augend = Double.parseDouble(numValue);
+		double sum = addend + augend;
+		JOptionPane.showMessageDialog(null, "" + sum);
+		
 	}
 
 	/**
