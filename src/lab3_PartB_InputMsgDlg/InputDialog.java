@@ -44,7 +44,7 @@ public class InputDialog {
 		int addend =Integer.parseInt(intValue);
 		double augend = Double.parseDouble(numValue);
 		double sum = addend + augend;
-		JOptionPane.showMessageDialog(null, "" + sum);
+		JOptionPane.showMessageDialog(null, "" + sum); 
 		
 	}
 
