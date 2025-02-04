@@ -4,6 +4,13 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 
+/*
+ * Demonstration of Swing's JOptionPane's showInputDIalog method
+ * 
+ * @author Megan E.Gunnett
+ * @version 1.0 - 4 February 2025
+ * */
+
 public class InputDialog {
 
 	private JFrame frame;
